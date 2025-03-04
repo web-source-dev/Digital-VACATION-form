@@ -74,7 +74,7 @@ const AdminDashboard = () => {
   };
 
   return (
-    <Box sx={{ p: 3 }}>
+    <Box sx={{ p: 3 , backgroundColor: '#f9f9f9' ,height: '97vh', overflow:'auto'}}>
       <Typography variant="h4" gutterBottom>
         Vacation Requests
       </Typography>
